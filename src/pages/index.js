@@ -4,7 +4,7 @@ import { Link, graphql, navigate } from "gatsby";
 import Layout from "../components/Layout";
 
 export default class IndexPage extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     navigate("/products", { replace: true });
   }
 
